@@ -1,8 +1,9 @@
 package inits
 
 import (
+	"github.com/GUOSAITONG/MyConfig/config"
 	"github.com/spf13/viper"
-	"init/config"
+
 	"log"
 )
 

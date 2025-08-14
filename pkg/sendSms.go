@@ -4,7 +4,8 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"github.com/guosaitong/MyConfig/config"
+	"github.com/GUOSAITONG/MyConfig/config"
+
 	"io/ioutil"
 	"net/http"
 	"net/url"

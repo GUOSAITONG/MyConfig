@@ -1,7 +1,7 @@
-package main
+package MyConfig
 
-import "MyConfig/inits"
+import "github.com/GUOSAITONG/MyConfig/inits"
 
 func main() {
-	inits.Init()
+	inits.InitViper()
 }

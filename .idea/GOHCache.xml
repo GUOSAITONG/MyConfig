@@ -90,6 +90,13 @@
     </option>
     <option name="scannedPathMapping">
       <map>
+        <entry key="file://$PROJECT_DIR$/../2301a_renting/goods_srv/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755181468579" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/config/config.go">
           <value>
             <ScannedPath>
@@ -127,7 +134,7 @@
         <entry key="file://$PROJECT_DIR$/inits/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755179547185" />
+              <option name="lastModified" value="1755181386584" />
             </ScannedPath>
           </value>
         </entry>
@@ -141,7 +148,7 @@
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755179563048" />
+              <option name="lastModified" value="1755181772128" />
             </ScannedPath>
           </value>
         </entry>

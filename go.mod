@@ -1,4 +1,4 @@
-module github.com/guosaitong/MyConfig
+module github.com/GUOSAITONG/MyConfig
 
 go 1.24.5
 
