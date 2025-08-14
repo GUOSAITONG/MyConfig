@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AliPay">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/alipay.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AliSms">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/sendSms.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Appconf">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Es">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HuYiWuXian">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/sendSms.go" />
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/sendSms.go" />
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/sendSms.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MongoDB">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Mysql">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Redis">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Response">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/api-gateway/basic/response/response.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Result">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/api-gateway/basic/response/response.go" />
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/response/response.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SendSms">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755178968153" />
+              <option name="schema">
+                <list>
+                  <option value="Appconf" />
+                  <option value="SendSms" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755178982263" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/init/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755179183960" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/init/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755179193080" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inits/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755179547185" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inits/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755179547193" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755179563048" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/sendSms.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755180306120" />
+              <option name="schema">
+                <list>
+                  <option value="HuYiWuXian" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/api-gateway/basic/response/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755174676303" />
+              <option name="schema">
+                <list>
+                  <option value="Response" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755160249159" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755162997868" />
+              <option name="schema">
+                <list>
+                  <option value="Appconf" />
+                  <option value="Mysql" />
+                  <option value="Redis" />
+                  <option value="Es" />
+                  <option value="MongoDB" />
+                  <option value="AliPay" />
+                  <option value="SendSms" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755162351633" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755159628761" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755161831168" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/mongoDB.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755161819169" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755159582190" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755159943451" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/response/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755163552826" />
+              <option name="schema">
+                <list>
+                  <option value="Result" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/sendSms.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755163187481" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/alipay.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755162397942" />
+              <option name="schema">
+                <list>
+                  <option value="AliPay" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/sendSms.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755163224254" />
+              <option name="schema">
+                <list>
+                  <option value="HuYiWuXian" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="ali_pay" value="AliPay" />
+        <entry key="ali_sms" value="AliSms" />
+        <entry key="appconf" value="Appconf" />
+        <entry key="es" value="Es" />
+        <entry key="hu_yi_wu_xian" value="HuYiWuXian" />
+        <entry key="mongo_db" value="MongoDB" />
+        <entry key="mysql" value="Mysql" />
+        <entry key="redis" value="Redis" />
+        <entry key="response" value="Response" />
+        <entry key="result" value="Result" />
+        <entry key="send_sms" value="SendSms" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1755158059404" />
+  </component>
+</project>
