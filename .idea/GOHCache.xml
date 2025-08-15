@@ -56,6 +56,13 @@
             </set>
           </value>
         </entry>
+        <entry key="Orders">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../rikao/user-srv/handler/models/order.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Redis">
           <value>
             <set>
@@ -93,7 +100,7 @@
         <entry key="file://$PROJECT_DIR$/../2301a_renting/goods_srv/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755181468579" />
+              <option name="lastModified" value="1755182111085" />
             </ScannedPath>
           </value>
         </entry>
@@ -134,7 +141,7 @@
         <entry key="file://$PROJECT_DIR$/inits/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755181386584" />
+              <option name="lastModified" value="1755181850827" />
             </ScannedPath>
           </value>
         </entry>
@@ -148,14 +155,14 @@
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755181772128" />
+              <option name="lastModified" value="1755181850817" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/pkg/sendSms.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755180306120" />
+              <option name="lastModified" value="1755181850821" />
               <option name="schema">
                 <list>
                   <option value="HuYiWuXian" />
@@ -286,6 +293,18 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/../rikao/user-srv/handler/models/order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755224271336" />
+              <option name="schema">
+                <list>
+                  <option value="Orders" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
@@ -297,6 +316,7 @@
         <entry key="hu_yi_wu_xian" value="HuYiWuXian" />
         <entry key="mongo_db" value="MongoDB" />
         <entry key="mysql" value="Mysql" />
+        <entry key="orders" value="Orders" />
         <entry key="redis" value="Redis" />
         <entry key="response" value="Response" />
         <entry key="result" value="Result" />
