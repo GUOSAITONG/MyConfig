@@ -1,0 +1,35 @@
+# 编译生成的可执行文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Go 模块相关
+go.sum
+vendor/        # 如果使用 go mod vendor 生成的依赖目录
+
+# 构建缓存和临时文件
+go-build/
+__debug_bin
+__debug_test
+*.test
+
+# 开发工具配置
+.idea/         # JetBrains 系列 IDE (GoLand 等)
+.vscode/       # VS Code 配置
+*.sublime-*    # Sublime Text 配置
+.atom/         # Atom 配置
+
+# 操作系统生成的文件
+.DS_Store      # macOS
+Thumbs.db      # Windows
+*.swp          # Vim 临时文件
+*~             # 临时文件
+
+# 日志和环境文件
+logs/
+*.log
+.env
+.env.local.idea/
