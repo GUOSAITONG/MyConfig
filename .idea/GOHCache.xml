@@ -3,18 +3,10 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
-        <entry key="AliPay">
+        <entry key="AliYunUpload">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/alipay.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="AliSms">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/sendSms.go" />
+              <option value="file://$PROJECT_DIR$/pkg/upload.go" />
             </set>
           </value>
         </entry>
@@ -22,14 +14,34 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/config/config.go" />
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DataCleaner">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/services/cleaner.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeviceBinding">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/models/device.go" />
             </set>
           </value>
         </entry>
         <entry key="Es">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/config/config.go" />
             </set>
           </value>
         </entry>
@@ -37,51 +49,69 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/pkg/sendSms.go" />
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/sendSms.go" />
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/sendSms.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MQTTProcessor">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/services/processor.go" />
             </set>
           </value>
         </entry>
         <entry key="MongoDB">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MongoRepository">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/repositories/mongo_repo.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MySQLRepository">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/repositories/mysql_repo.go" />
             </set>
           </value>
         </entry>
         <entry key="Mysql">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/config/config.go" />
             </set>
           </value>
         </entry>
-        <entry key="Orders">
+        <entry key="ProcessedData">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../rikao/user-srv/handler/models/order.go" />
+              <option value="file://$PROJECT_DIR$/../clear/models/processed.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RawDeviceData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../clear/models/raw_data.go" />
             </set>
           </value>
         </entry>
         <entry key="Redis">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+              <option value="file://$PROJECT_DIR$/config/config.go" />
             </set>
           </value>
         </entry>
         <entry key="Response">
           <value>
             <set>
-              <option value="file://$PROJECT_DIR$/../hospital/api-gateway/basic/response/response.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="Result">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/../hospital/api-gateway/basic/response/response.go" />
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/response/response.go" />
+              <option value="file://$PROJECT_DIR$/response/response.go" />
             </set>
           </value>
         </entry>
@@ -89,7 +119,20 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/config/config.go" />
-              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Serve">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../hospital/hospital-srv/handler/service/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Upload">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
             </set>
           </value>
         </entry>
@@ -97,21 +140,19 @@
     </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$PROJECT_DIR$/../2301a_renting/goods_srv/main.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755182111085" />
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755178968153" />
+              <option name="lastModified" value="1755394140749" />
               <option name="schema">
                 <list>
                   <option value="Appconf" />
+                  <option value="Mysql" />
+                  <option value="Redis" />
+                  <option value="Es" />
+                  <option value="MongoDB" />
                   <option value="SendSms" />
+                  <option value="Upload" />
                 </list>
               </option>
             </ScannedPath>
@@ -120,42 +161,49 @@
         <entry key="file://$PROJECT_DIR$/config/global.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755178982263" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/init/config.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755179183960" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/init/init.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755179193080" />
+              <option name="lastModified" value="1755244511134" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/inits/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755181850827" />
+              <option name="lastModified" value="1755244629605" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/inits/init.go">
+        <entry key="file://$PROJECT_DIR$/inits/es.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755179547193" />
+              <option name="lastModified" value="1755244407366" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inits/mongoDB.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755244407352" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inits/mysql.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755244330618" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inits/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755244544863" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755181850817" />
+              <option name="lastModified" value="1755258313897" />
             </ScannedPath>
           </value>
         </entry>
@@ -171,10 +219,22 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/api-gateway/basic/response/response.go">
+        <entry key="file://$PROJECT_DIR$/pkg/upload.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755174676303" />
+              <option name="lastModified" value="1755394264755" />
+              <option name="schema">
+                <list>
+                  <option value="AliYunUpload" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/response/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755258134472" />
               <option name="schema">
                 <list>
                   <option value="Response" />
@@ -183,125 +243,181 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/cmd/main.go">
+        <entry key="file://$PROJECT_DIR$/../clear/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755160249159" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/config.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755162997868" />
+              <option name="lastModified" value="1755317693071" />
               <option name="schema">
                 <list>
-                  <option value="Appconf" />
-                  <option value="Mysql" />
-                  <option value="Redis" />
-                  <option value="Es" />
-                  <option value="MongoDB" />
-                  <option value="AliPay" />
-                  <option value="SendSms" />
+                  <option value="Config" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/config/global.go">
+        <entry key="file://$PROJECT_DIR$/../clear/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755162351633" />
+              <option name="lastModified" value="1755316065236" />
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/config.go">
+        <entry key="file://$PROJECT_DIR$/../clear/models/device.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755159628761" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/init.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755161831168" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/mongoDB.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755161819169" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/mysql.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755159582190" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/init/redis.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755159943451" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/response/response.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755163552826" />
+              <option name="lastModified" value="1755315190571" />
               <option name="schema">
                 <list>
-                  <option value="Result" />
+                  <option value="DeviceBinding" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/sendSms.go">
+        <entry key="file://$PROJECT_DIR$/../clear/models/processed.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755163187481" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/alipay.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1755162397942" />
+              <option name="lastModified" value="1755315232496" />
               <option name="schema">
                 <list>
-                  <option value="AliPay" />
+                  <option value="ProcessedData" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/sendSms.go">
+        <entry key="file://$PROJECT_DIR$/../clear/models/raw_data.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755163224254" />
+              <option name="lastModified" value="1755315215281" />
               <option name="schema">
                 <list>
-                  <option value="HuYiWuXian" />
+                  <option value="RawDeviceData" />
                 </list>
               </option>
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/../rikao/user-srv/handler/models/order.go">
+        <entry key="file://$PROJECT_DIR$/../clear/repositories/mongo_repo.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755224390659" />
+              <option name="lastModified" value="1755316065178" />
               <option name="schema">
                 <list>
-                  <option value="Orders" />
+                  <option value="MongoRepository" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../clear/repositories/mysql_repo.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755316365931" />
+              <option name="schema">
+                <list>
+                  <option value="MySQLRepository" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../clear/services/cleaner.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755317885183" />
+              <option name="schema">
+                <list>
+                  <option value="DataCleaner" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../clear/services/processor.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755316390356" />
+              <option name="schema">
+                <list>
+                  <option value="MQTTProcessor" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/api-gateway/basic/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755309018717" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/api-gateway/router/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755310528538" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/inits/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755309235497" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/basic/inits/mongoDB.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755309262679" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/handler/dao/alipay.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755318698000" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/handler/dao/sendSms.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755318591019" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/handler/service/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755318734923" />
+              <option name="schema">
+                <list>
+                  <option value="Serve" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/pkg/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755310997465" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/clear.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755314261894" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../hospital/hospital-srv/untils/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755311097648" />
             </ScannedPath>
           </value>
         </entry>
@@ -309,20 +425,27 @@
     </option>
     <option name="tableStructMapping">
       <map>
-        <entry key="ali_pay" value="AliPay" />
-        <entry key="ali_sms" value="AliSms" />
+        <entry key="ali_yun_upload" value="AliYunUpload" />
         <entry key="appconf" value="Appconf" />
+        <entry key="config" value="Config" />
+        <entry key="data_cleaner" value="DataCleaner" />
+        <entry key="device_binding" value="DeviceBinding" />
         <entry key="es" value="Es" />
         <entry key="hu_yi_wu_xian" value="HuYiWuXian" />
         <entry key="mongo_db" value="MongoDB" />
+        <entry key="mongo_repository" value="MongoRepository" />
+        <entry key="mqtt_processor" value="MQTTProcessor" />
+        <entry key="my_sql_repository" value="MySQLRepository" />
         <entry key="mysql" value="Mysql" />
-        <entry key="orders" value="Orders" />
+        <entry key="processed_data" value="ProcessedData" />
+        <entry key="raw_device_data" value="RawDeviceData" />
         <entry key="redis" value="Redis" />
         <entry key="response" value="Response" />
-        <entry key="result" value="Result" />
         <entry key="send_sms" value="SendSms" />
+        <entry key="serve" value="Serve" />
+        <entry key="upload" value="Upload" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1755158059404" />
+    <option name="lastTimeChecked" value="1755307831774" />
   </component>
 </project>

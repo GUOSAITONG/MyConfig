@@ -1,3 +1,25 @@
+Mysql:
+  Host: "124.222.68.180"
+  Port: 3306
+  User: "root"
+  Password: "a18dee684cb5c29dfc8762353b1db8cf"
+  Database: "project"
+
+Redis:
+  Host: "124.222.68.180"
+  Port: 6379
+  Password: "a18dee684cb5c29dfc8762353b1db8cf"
+
+Es:
+  Host: "124.222.68.180"
+  Port: 9200
+
+MongoDB:
+  Host: "124.222.68.180"
+  Port: 27017
+  User: "mongo"
+  Password: "a18dee684cb5c29dfc8762353b1db8cf"
+
 SendSms:
   Account: "C94545844"
   Password: "e8db582c2ec9fc09827a4fd0f05828a6"

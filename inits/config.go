@@ -8,7 +8,7 @@ import (
 )
 
 func InitViper() {
-	viper.SetConfigFile("../dev.yaml")
+	viper.SetConfigFile("./dev.yaml")
 	viper.ReadInConfig()
 	viper.Unmarshal(&config.Config)
 	log.Println("配置文件获取成功", config.Config)
